@@ -9,7 +9,6 @@ const Footer = () => {
 <div className="container mx-auto px-6 py-8 flex flex-col md:flex-row items-start gap-6">
   {/* Logo + Text Wrapper */}
   <div className="flex flex-col md:flex-row items-center md:items-start w-full">
-    {/* Logo */}
     <img
       src={logo}
       alt="Jinn Store Logo"
