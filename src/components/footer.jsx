@@ -91,7 +91,7 @@ const Footer = () => {
 
         </div>
       </div>
-<hr className="bg-[#C1C7CD] w-1,280px h-1px md:w-[90%] mx-auto" />
+<hr className="bg-[#C1C7CD] w-full h-px md:w-[90%] mx-auto" />
 
       {/* Bottom Section */}
       <div className="container mx-auto px-6  py-4 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
