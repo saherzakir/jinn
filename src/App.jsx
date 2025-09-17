@@ -1,19 +1,17 @@
 import React from "react";
-import TopBar from "./components/topbar";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import BottomBanner from "./components/bottombanner";
-import Footer from "./components/footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <TopBar />
-      <Header />
-      <Hero />
-      <BottomBanner />
-      <Footer/>
-    </div>
+    <Router>
+      <div className="min-h-screen bg-white">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Add more routes here */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
