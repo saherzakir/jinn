@@ -5,6 +5,7 @@ import Hero from "../components/hero";
 import BottomBanner from "../components/bottombanner";
 import Footer from "../components/footer";
 import FreshPicks from "../components/freshpicks";
+import FeaturedCategory from "../components/featuredcategory";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Hero />
       <BottomBanner />
       <FreshPicks />
+      <FeaturedCategory/>
       <Footer />
     </>
   );
