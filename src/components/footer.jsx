@@ -17,11 +17,10 @@ const Footer = () => {
 
     {/* Paragraph */}
     <div className="mt-4 md:mt-12 md:ml-4 text-white text-sm max-w-xl md:max-w-2xl lg:max-w-3xl">
-      <p className="font-lato text-sm sm:text-base md:text-lg leading-relaxed text-center md:text-left">
-        Your Trusted Destination For Quality Footwear And Farm-Fresh Dairy.
-        Shop With Confidence, Enjoy Secure Payments, And Get Doorstep Delivery
-        Every Time.
-      </p>
+    <p className="font-lato text-sm sm:text-base md:text-lg leading-relaxed text-center md:text-left whitespace-normal md:whitespace-nowrap">
+    Your Trusted Destination For Quality Footwear And Farm-Fresh Dairy. 
+    Shop With Confidence, Enjoy Secure Payments, And Get Doorstep <br/> Delivery Every Time.
+  </p>
     </div>
   </div>
 </div>
