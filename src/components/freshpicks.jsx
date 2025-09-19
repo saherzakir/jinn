@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { FaHeart, FaShoppingCart, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FiArrowUpRight } from "react-icons/fi";
 import urbanImage from "../assets/urban.png";
 import driftImage from "../assets/drift.png";
 import joggersImage from "../assets/joggers.png";
@@ -114,10 +115,13 @@ const FreshPicks = () => {
           ))}
         </div>
 
-        {/* View All Button */}
-        <div className="flex justify-center mt-10">
-          <button className="bg-pink-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-pink-700 transition flex items-center gap-2">
-            View All <span>→</span>
+         {/* View All Button */}
+        <div className="flex justify-center mt-6">
+          <button className="bg-pink-600 text-white px-8 py-3 rounded-lg font-lato font-bold hover:bg-pink-700 transition flex items-center gap-2">
+            View All 
+            <span className="bg-pink-600 text-white p-1 rounded">
+              <FiArrowUpRight   className="text-lg" />
+            </span>
           </button>
         </div>
       </div>
