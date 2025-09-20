@@ -8,6 +8,7 @@ import FreshPicks from "../components/freshpicks";
 import FeaturedCategory from "../components/featuredcategory";
 import WomensCollection from "../components/womenscollection";
 import WomensProducts from "../components/womensproducts";
+import MensCollection from "../components/menscollection";
 
 function Home() {
   return (
@@ -19,7 +20,8 @@ function Home() {
       <FreshPicks />
       <FeaturedCategory/>
       <WomensCollection/>
-       <WomensProducts/>
+      <WomensProducts/>
+      <MensCollection/>
       <Footer />
     </>
   );
