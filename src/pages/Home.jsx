@@ -9,6 +9,7 @@ import FeaturedCategory from "../components/featuredcategory";
 import WomensCollection from "../components/womenscollection";
 import WomensProducts from "../components/womensproducts";
 import MensCollection from "../components/menscollection";
+import MensProducts from "../components/mensproducts";
 
 function Home() {
   return (
@@ -22,6 +23,8 @@ function Home() {
       <WomensCollection/>
       <WomensProducts/>
       <MensCollection/>
+      <MensProducts/>
+
       <Footer />
     </>
   );

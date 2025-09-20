@@ -12,7 +12,7 @@ export default function WomensCollection() {
       {/* Card */}
       <div
         className="
-          relative rounded-lg overflow-hidden mb-10 
+          relative  overflow-hidden mb-10 
           w-full max-w-[1120px]
           h-[220px] sm:h-[350px] md:h-[480px] lg:h-[620px]
           bg-contain sm:bg-cover
@@ -38,7 +38,7 @@ export default function WomensCollection() {
         >
           <h3 className="text-lg sm:text-2xl md:text-4xl font-lato font-bold text-gray-900 leading-snug">
             Your Essentials
-            <br className="sm:hidden" /> {/* mobile pe force break */}
+            <br className="sm:hidden" /> 
             For Winning.
           </h3>
           <p className="text-gray-700 font-lato mt-2 sm:mt-3 text-sm sm:text-base md:text-lg">
