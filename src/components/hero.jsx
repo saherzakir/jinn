@@ -3,7 +3,8 @@ import sneakers from "../assets/shoesHero.jpeg";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto px-8 md:px-10 flex flex-col md:flex-row items-center md:items-center py-16 bg-white">
+  <section className="container mx-auto px-8 md:px-10 flex flex-col md:flex-row items-center md:items-center pt-8 md:pt-16 pb-16 bg-white">
+
       
       {/* Left Content */}
       <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0 md:pr-16">
