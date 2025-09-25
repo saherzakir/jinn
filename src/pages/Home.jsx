@@ -10,6 +10,9 @@ import WomensCollection from "../components/womenscollection";
 import WomensProducts from "../components/womensproducts";
 import MensCollection from "../components/menscollection";
 import MensProducts from "../components/mensproducts";
+import PerfectMatch from "../components/perfectmatch";
+import CustomerReviews from "../components/customerreviews";
+import ChooseUs from "../components/chooseus";
 
 function Home() {
   return (
@@ -24,7 +27,9 @@ function Home() {
       <WomensProducts/>
       <MensCollection/>
       <MensProducts/>
-
+      <PerfectMatch/>
+      <CustomerReviews/>
+      <ChooseUs/>
       <Footer />
     </>
   );

@@ -5,7 +5,7 @@ import logo from "../assets/jinn-logo.png";
 
 const Header = () => {
   return (
-    <nav className="container mx-auto px-6 md:px-8 flex justify-between items-center  py-4 ">
+    <nav className="container mx-auto px-6 md:px-8 flex justify-between items-center py-2 sm:py-4 ">
       {/* Logo & image*/}
     <div className="flex items-center gap-2">
        <img 
