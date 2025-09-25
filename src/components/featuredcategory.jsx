@@ -8,11 +8,12 @@ const categories = [
   {
     title: "Men's Collection",
     image: blueShoe,
+    link: "/men-collections",   // 👈 direct category page
   },
   {
     title: "Women's Collection",
     image: pinkShoe,
-    link: "/category",   // 👈 direct category page
+    link: "/women-collections",   // 👈 direct category page
   },
 ];
 
@@ -31,7 +32,7 @@ export default function FeaturedCategories() {
         {categories.map((cat, index) => (
           <div
             key={index}
-            onClick={() => navigate(cat.link)} // 👈 navigate direct /category
+            onClick={() => navigate(cat.link)} 
             className="relative rounded-2xl shadow-md overflow-hidden bg-white aspect-[4/3] md:aspect-[5/4] cursor-pointer transition hover:shadow-lg"
           >
             {/* Shoe Image */}

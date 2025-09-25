@@ -49,7 +49,7 @@ export default function WomensCollection({ showHeading = true }) {
             Discover Your Style With Us.
           </p>
           <button
-            onClick={() => navigate("/category")} 
+            onClick={() => navigate("/women-collections")} 
             className="mt-3 sm:mt-5 font-lato bg-pink-500 hover:bg-pink-600 text-white px-3 sm:px-5 py-1.5 sm:py-2.5 rounded-lg font-bold text-xs sm:text-sm md:text-base transition"
           >
             Shop Women&apos;s Collection

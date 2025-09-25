@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Category from "./pages/category";
+import WomenCategory from "./pages/womenCategory";
+import MenCategory from "./pages/menCategory";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className="min-h-screen bg-white">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/category" element={<Category />} />
+          <Route path="/women-collections" element={<WomenCategory />} />
+          <Route path="/men-collections" element={<MenCategory />} />
 
           {/* Add more routes here */}
         </Routes>
