@@ -16,7 +16,7 @@ const Breadcrumb = () => {
           </a>
         </li>
         <li>{">"}</li>
-        <li className="text-gray-800 font-semibold">
+        <li className="text-black font-semibold">
           Regal Leather Starlet
         </li>
       </ol>

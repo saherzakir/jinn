@@ -13,6 +13,7 @@ import Recommended from "../components/recommended";
 import BottomBanner from "../components/bottombanner";
 import Chooseus  from "../components/chooseus";
 import Footer from "../components/footer";
+import { useNavigate } from "react-router-dom"; 
 
 export default function Product() {
   useEffect(() => {
@@ -28,9 +29,13 @@ export default function Product() {
   const sizes = ["38", "39", "40", "41", "42", "43"];
   const thumbnails = [shoes1, shoes2, shoes3, shoes1, shoes2, shoes3];
 
+  const navigate = useNavigate(); 
+  const handleBuyNow = () => {
+    navigate("/checkout"); 
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Topbar & Header */}
       <Topbar />
       <Header />
       <Breadcrumb/>
@@ -134,7 +139,10 @@ export default function Product() {
           </div>
 
           {/* Buy It Now */}
-          <button className="w-full bg-pink-500 text-white py-3 rounded font-lato font-bold hover:bg-pink-600">
+          <button 
+            onClick={handleBuyNow}
+            className="w-full bg-pink-500 text-white py-3 rounded font-lato font-bold hover:bg-pink-600"
+          >
             <span className="flex items-center justify-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

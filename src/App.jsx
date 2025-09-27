@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import WomenCategory from "./pages/womenCategory";
 import MenCategory from "./pages/menCategory";
 import Product from "./pages/product";
+import Checkout from "./pages/checkout";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/women-collections" element={<WomenCategory />} />
           <Route path="/men-collections" element={<MenCategory />} />
-                    <Route path="/product" element={<Product />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/checkout" element={<Checkout />} />
+
 
 
           {/* Add more routes here */}
