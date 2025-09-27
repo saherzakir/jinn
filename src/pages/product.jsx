@@ -1,23 +1,18 @@
 import { useState, useEffect } from "react";
-import {
-  Star,
-  Truck,
-  RotateCcw,
-  CreditCard,
-  HelpCircle,
-  Share,
-  Package,
-  ChevronDown,
-  ChevronUp,
-} from "lucide-react";
+import {Star,Truck,RotateCcw,CreditCard,HelpCircle,Share,Package,ChevronDown,ChevronUp} from "lucide-react";
 import Header from "../components/Header";
 import Topbar from "../components/Topbar";
+import Breadcrumb from "../components/breadcrumb";
 import regalleather from "../assets/regalleather.jpg";
 import shoes1 from "../assets/shoes1.png";
 import shoes2 from "../assets/shoes2.png";
 import shoes3 from "../assets/shoes3.png";
 import payment from "../assets/payment.png";
 import { createIcons, icons } from "lucide";
+import Recommended from "../components/recommended";
+import BottomBanner from "../components/bottombanner";
+import Chooseus  from "../components/chooseus";
+import Footer from "../components/footer";
 
 export default function Product() {
   useEffect(() => {
@@ -38,17 +33,7 @@ export default function Product() {
       {/* Topbar & Header */}
       <Topbar />
       <Header />
-
-      {/* Breadcrumb */}
-      <div className="max-w-xl text-black font-bold px-4 ml-25 mt-2">
-        <div className="text-sm ">
-          <span className="cursor-pointer font-semibold">Home</span>
-          <span className="mx-3 text-bold">{">"}</span>
-          <span className="cursor-pointer font-semibold">New Arrival</span>
-          <span className="mx-3 text-bold">{">"}</span>
-          <span className="font-semibold">Regal Leather Starlet</span>
-        </div>
-      </div>
+      <Breadcrumb/>
 
       {/* Main Content */}
       <main className="flex-1 max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -305,8 +290,10 @@ export default function Product() {
     </div>
   </div>
 </section>
-
-
+        <BottomBanner/>
+        <Recommended />
+        <Chooseus/>
+        <Footer/>
 
     </div>
   );
