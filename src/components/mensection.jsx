@@ -35,7 +35,6 @@ const WomensSection = () => {
         setSelectedSizes({ ...selectedSizes, [productId]: size });
     };
 
-    // Filtered products based on dropdown selection
     const filteredProducts = filterSize
         ? products.filter((item) => item.sizes.includes(Number(filterSize)))
         : products;

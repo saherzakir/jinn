@@ -5,6 +5,7 @@ import WomenCategory from "./pages/womenCategory";
 import MenCategory from "./pages/menCategory";
 import Product from "./pages/product";
 import Checkout from "./pages/checkout";
+import HacFoods from "./pages/hacFoods";
 
 function App() {
   return (
@@ -16,10 +17,8 @@ function App() {
           <Route path="/men-collections" element={<MenCategory />} />
           <Route path="/product" element={<Product />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/hacfoods" element={<HacFoods />} />
 
-
-
-          {/* Add more routes here */}
         </Routes>
       </div>
     </Router>

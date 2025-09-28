@@ -2,9 +2,8 @@ import Header from "../components/Header";
 import TopBar from "../components/Topbar";
 import ChooseUs from "../components/chooseus";
 import Footer from "../components/footer";
-import WomensCollection from "../components/womenscollectionHero";
-import WomensProducts from "../components/womensproducts";
-import Womensection from "../components/womensection";
+import Mensection from "../components/mensection";
+import HacFoods from "../components/hacFoodsHero";
 
 
 const Category = () => {
@@ -12,8 +11,8 @@ const Category = () => {
     <div className="bg-white">
         <TopBar/>
         <Header />
-        <WomensCollection showHeading={false}/>
-        <Womensection />
+        <HacFoods showHeading={false}/>
+       
         <ChooseUs />
         <Footer />
     </div>
