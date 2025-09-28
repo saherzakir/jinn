@@ -1,5 +1,5 @@
-import Topbar from "../components/topbar";
-import Header from "../components/header";
+import Topbar from "../components/Topbar";
+import Header from "../components/Header";
 import ChooseUs from "../components/chooseus";
 import Footer from "../components/footer";
 import WomensCollection from "../components/womenscollectionHero";
