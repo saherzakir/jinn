@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import {Star,Truck,RotateCcw,CreditCard,HelpCircle,Share,Package,ChevronDown,ChevronUp} from "lucide-react";
-import Header from "../components/Header";
-import Topbar from "../components/Topbar";
+import Topbar from "../components/topbar";
+import Header from "../components/header";
 import Breadcrumb from "../components/breadcrumb";
 import regalleather from "../assets/regalleather.jpg";
 import shoes1 from "../assets/shoes1.png";
